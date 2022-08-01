@@ -1,4 +1,6 @@
-# go-starter
+![GitHub](https://img.shields.io/github/license/mrdhat/go-starter)
+[![DeepSource](https://deepsource.io/gh/MrDHat/go-starter.svg/?label=active+issues&show_trend=true&token=DubK1nIGgMWl5FQNtxhx9ux0)](https://deepsource.io/gh/MrDHat/go-starter/?ref=repository-badge)
+# Go starter template
 A starter template for golang based web projects. The template follows convention over configuration pattern with focus on performance & ease of use
 
 
