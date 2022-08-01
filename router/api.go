@@ -16,15 +16,6 @@ import (
 	echoSwagger "github.com/swaggo/echo-swagger"
 )
 
-// @title Go Starter API
-// @version 0.0.1
-// @description Go Starter API
-// @termsOfService http://swagger.io/terms/
-
-// @contact.name API Support
-// @contact.url http://www.swagger.io/support
-// @contact.email support@swagger.io
-
 type API interface {
 	Start(dependencies service.Services)
 }

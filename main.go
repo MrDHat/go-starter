@@ -20,6 +20,15 @@ func shutDown(shutDownChannel chan *bool) {
 	close(shutDownChannel)
 }
 
+// @title Go Starter API
+// @version 0.0.1
+// @description Go Starter API
+// @termsOfService http://swagger.io/terms/
+
+// @contact.name API Support
+// @contact.url http://www.swagger.io/support
+// @contact.email support@swagger.io
+
 func main() {
 
 	var shutDownChannel chan *bool
