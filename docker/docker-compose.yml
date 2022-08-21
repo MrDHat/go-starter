@@ -1,0 +1,16 @@
+version: "3"
+services:
+  auth:
+    networks:
+      - go-starter
+    build:
+      context: .
+    container_name: go-starter
+    ports:
+      - "3000:3000"
+    volumes:
+      - "../:/go/src/go-starter"
+volumes:
+  go-starter:
+networks:
+  go-starter:

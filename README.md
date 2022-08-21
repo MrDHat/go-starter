@@ -12,7 +12,7 @@ The following packages are used to build the template:
 - [Cleanenv Config Library](https://github.com/ilyakaznacheev/cleanenv)
 
 ### Generate Swagger Docs
-- Install [Swag CLI](github.com/swaggo/swag/cmd/swag@latest)
+- Install [Swag CLI](https://github.com/swaggo/swag#getting-started)
 - Run `swag init`
 > Best to add it as a part of your CI pipeline
 
